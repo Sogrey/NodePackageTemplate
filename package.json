@@ -1,6 +1,6 @@
 {
   "name": "@sogrey/node-package-template",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "npm 包模板",
   "main": "index.js",
   "scripts": {

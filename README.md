@@ -1,6 +1,10 @@
 # NodePackageTemplate
 npm 包模板
 
+## 注册npm账户
+
+前往[官网](https://www.npmjs.com/)注册账号,记住用户名、密码、邮箱。
+
 ## 添加账户
 使用以下命令添加npm的账户名、密码和邮箱即可：
 ``` bash
@@ -12,7 +16,10 @@ npm adduser
 > ```
 > 因为taobao镜像源是只读的。
 
+
 ## 发布到npm
+
+发布前检查是否已存在同名package，在[官网](https://www.npmjs.com/)直接搜索你要命名的名字，即package.json中`name`字段，如果已存在需要更名，不得重复。
 
 发布：
 ``` bash
