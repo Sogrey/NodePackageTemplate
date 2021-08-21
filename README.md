@@ -89,5 +89,30 @@ npm run mocha:reporter
 能不能看看测试覆盖率呢
 ``` bash
 #istanbul cover ./node_modules/mocha/bin/_mocha -- -t 2000 --recursive -R spec tests/
-npm run istanbul:tests
+npm run istanbul:cover:tests
 ```
+
+<!-- 
+## 命令行
+
+``` json
+    "bin": {
+        "writeFile": "./bin/writeFile.js",
+        "readFile": "./bin/readFile.js"
+    },
+```
+
+> 注：
+>
+> 开发模式可以使用：
+>
+> ``` bash
+> sudo npm link   #添加命令行模式
+> sudo npm unlink #取消命令行模式
+> ``` -->
+
+
+## 参考
+
+- [记npm包开发全过程](https://blog.csdn.net/white__cat/article/details/77051995)
+<!-- - [通过npm写一个cli命令行工具](https://www.cnblogs.com/buzhiqianduan/p/7655612.html) -->

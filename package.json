@@ -4,10 +4,10 @@
   "description": "npm 包模板",
   "main": "index.js",
   "scripts": {
-    "mocha:tests:readAndWriteFile":"mocha tests/readAndWriteFile.js",
-    "mocha:tests":"mocha --watch tests",
-    "mocha:reporter":"mocha --reporter mochawesome tests",
-    "istanbul:tests":"istanbul cover ./node_modules/mocha/bin/_mocha -- -t 2000 --recursive -R spec tests/",
+    "mocha:tests:readAndWriteFile": "mocha tests/readAndWriteFile.js",
+    "mocha:tests": "mocha --watch tests",
+    "mocha:reporter": "mocha --reporter mochawesome tests",
+    "istanbul:cover:tests": "istanbul cover ./node_modules/mocha/bin/_mocha -- -t 2000 --recursive -R spec tests/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/Sogrey/NodePackageTemplate#readme",
   "dependencies": {
+    "commander": "^8.1.0",
     "es6-promise": "^4.2.8"
   },
   "devDependencies": {

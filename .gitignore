@@ -1,5 +1,4 @@
 /node_modules
 /mochawesome-report
 /coverage
-/tests/results/test*.*
-
+/tests/results/[test-]*.*
