@@ -1,7 +1,7 @@
-////////////////////////////////////////////
+//=========================================
 // 针对测试 /lib/readAndWriteFile.js
 // 单独测试 mocha tests/readAndWriteFile.js
-////////////////////////////////////////////
+//=========================================
 
 var file = require('../lib/readAndWriteFile.js');
 var expect = require('chai').expect;
