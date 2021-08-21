@@ -92,14 +92,13 @@ npm run mocha:reporter
 npm run istanbul:cover:tests
 ```
 
-<!-- 
 ## 命令行
 
+package.json 添加如下示例：
 ``` json
-    "bin": {
-        "writeFile": "./bin/writeFile.js",
-        "readFile": "./bin/readFile.js"
-    },
+"bin": {
+    "hello": "./bin/hello.js"
+},
 ```
 
 > 注：
@@ -109,10 +108,22 @@ npm run istanbul:cover:tests
 > ``` bash
 > sudo npm link   #添加命令行模式
 > sudo npm unlink #取消命令行模式
-> ``` -->
+> ``` 
 
+执行示例命令：
+
+``` bash
+$ hello morning  A --n Sogrey B  --a 18 C
+Good Morning
+hello Sogrey,18
+hello Sogrey,18
+argv._ morning,A,B,C
+写入成功？ true
+写入的内容是： 测试写入文件数据：说明文档
+```
 
 ## 参考
 
 - [记npm包开发全过程](https://blog.csdn.net/white__cat/article/details/77051995)
-<!-- - [通过npm写一个cli命令行工具](https://www.cnblogs.com/buzhiqianduan/p/7655612.html) -->
+- [通过npm写一个cli命令行工具](https://www.cnblogs.com/buzhiqianduan/p/7655612.html)
+- [Node.js 命令行程序开发教程](https://www.ruanyifeng.com/blog/2015/05/command-line-with-node.html)
