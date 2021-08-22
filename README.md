@@ -107,7 +107,7 @@ package.json 添加如下示例：
 >
 > ``` bash
 > sudo npm link   #添加命令行模式
-> sudo npm unlink #取消命令行模式
+> sudo npm unlink <package name> #取消命令行模式
 > ``` 
 
 执行示例命令：

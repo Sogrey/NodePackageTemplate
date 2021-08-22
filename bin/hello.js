@@ -40,7 +40,7 @@ shell.exec("echo hello " + argv.n + "," + argv.a);
 
 
 
-shell.exec("echo argv._ " + argv._);
+shell.exec("echo argv._ : " + argv._);
 // $ hello A --n Sogrey B  --a 18 C
 // > argv._ A,B,C
 
