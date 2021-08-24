@@ -1,6 +1,6 @@
 {
   "name": "@sogrey/node-package-template",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "npm 包模板",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,7 @@
     "commander": "^8.1.0",
     "es6-promise": "^4.2.8",
     "shelljs": "^0.8.4",
-    "yargs": "^16.2.0"
+    "yargs": "^17.1.1"
   },
   "devDependencies": {
     "chai": "^4.3.4",
