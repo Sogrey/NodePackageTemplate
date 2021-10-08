@@ -1,6 +1,8 @@
 # NodePackageTemplate
 npm 包模板
 
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/Sogrey/NodePackageTemplate)
+
 ## 注册npm账户
 
 前往[官网](https://www.npmjs.com/)注册账号,记住用户名、密码、邮箱。
